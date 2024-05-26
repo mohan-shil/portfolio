@@ -28,7 +28,7 @@ const Hero = () => {
 
       <TextGenerateEffect className = ' text-center text-[40px] md:text-5xl lg:text-6xl' words = 'Transforming Concepts into Seamless Experiences'/>
       <p className=' text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-          Hi, I&apos;m Mohan, a Software Developer based in Krakow. 
+          Hi👋, I&apos;m Mohan Shil, a Software Developer. 
       </p>
 
     <a href="#about">
