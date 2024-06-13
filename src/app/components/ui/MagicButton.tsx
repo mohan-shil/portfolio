@@ -26,5 +26,5 @@ const MagicButton = ({
     </div>
   )
 }
-
+ 
 export default MagicButton

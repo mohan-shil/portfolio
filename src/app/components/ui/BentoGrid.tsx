@@ -61,7 +61,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none border border-white/[0.1] justify-between flex flex-col space-y-4 ",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none border border-white/[0.1] justify-between flex flex-col space-y-4",
         className
       )}
       style={{
@@ -69,7 +69,7 @@ export const BentoGridItem = ({
         backgroundColor: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,50,87,1) 47%, rgba(9,162,193,1) 82%)',
       }}
     >
-      <div className={`${id === 6} && 'flex justify-center h-full'`}>
+      <div className={`${id === 6 && 'flex justify-center'} h-full`}>
           <div className="w-full h-full absolute">
             {
               img && (
@@ -91,7 +91,7 @@ export const BentoGridItem = ({
           </div>
           {id === 6 && (
             <BackgroundGradientAnimation>
-              <div className=" absolute z-50 flex items-center justify-center text-white font-bold"/>
+              {/* <div className=" absolute z-50 flex items-center justify-center text-white font-bold"/> */}
             </BackgroundGradientAnimation>
           )}
           <div className={cn(
@@ -135,7 +135,7 @@ export const BentoGridItem = ({
                   autoplay: copied,
                   animationData, 
                   rendererSettings:{
-                    preserveAspectRatio: 'xMidyMid slide',  
+                  preserveAspectRatio: 'xMidyMid slide',  
                   }
                  }} />
               </div>
