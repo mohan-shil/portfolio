@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import { projects } from '../../../data'
 import { div } from 'three/examples/jsm/nodes/Nodes.js'

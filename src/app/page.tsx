@@ -1,4 +1,4 @@
-
+"use client"
 import { navItems } from "../../data";
 import Approach from "./components/Approach";
 import Experience from "./components/Experience";

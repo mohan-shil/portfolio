@@ -1,6 +1,6 @@
+"use client";
 import React from 'react'
 import { workExperience } from '../../../data'
-import { Cardo } from 'next/font/google'
 import { Button } from './MovingBorder'
 
 
